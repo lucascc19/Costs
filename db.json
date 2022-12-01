@@ -1,59 +1,99 @@
 {
   "projects": [
     {
-      "name": "Lucas",
-      "budget": "1502",
+      "name": "Protótipo do GetRecycle",
+      "budget": "4500",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1200,
+      "services": [
+        {
+          "name": "Criar componentes",
+          "cost": "500000",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas."
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "f27bafe7-0dd4-41b5-8c01-28cda2fd6672"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "f27bafe7-0dd4-41b5-8c01-28cda2fd6672"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "9b91f37a-e717-4d45-8aa9-9685b079778e"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "285842fd-6df6-40af-bd4d-4558c0c7fc6b"
+        },
+        {
+          "name": "Criar componentes",
+          "cost": "100",
+          "description": "Necessário alguém que saiba criar componentes para reutilizar nas demais páginas.",
+          "id": "285842fd-6df6-40af-bd4d-4558c0c7fc6b"
+        }
+      ],
       "id": 1
-    },
-    {
-      "name": "Lucas",
-      "budget": "1502",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Site OnePage",
-      "budget": "1200",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Protótipo do getRecycle",
-      "budget": "2500",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "Projeto teste",
-      "budget": "16.000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [
