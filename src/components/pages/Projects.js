@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useLocation } from "react-router"
+import { useLocation } from "react-router-dom"
 
 import Container from "../layout/Container"
 import Loading from "../layout/Loading"
@@ -33,7 +33,6 @@ function Projetcs(){
         setProjects(data)
         setRemoveLoading(true)
       })
-      .catch((err) => console.log(err))
     }, 3000)
   }, [])
 
@@ -49,7 +48,6 @@ function Projetcs(){
         setProjects(projects.filter((project) => project.id !== id))
         setProjectMessage('Projeto removido com sucesso.')
       })
-        .catch(err => console.log(err))
   }
 
   return (
@@ -62,7 +60,7 @@ function Projetcs(){
      {projectMessage && <Message type="success" msg={projectMessage} />}
      <Container customClass="start">
       {projects.length > 0 &&
-        projects.map((project) => 
+        projects.map((project) => (
         <ProjectCard 
           id={project.id}
           name={project.name}
@@ -70,7 +68,7 @@ function Projetcs(){
           category={project.category.name}
           key={project.id}
           handleRemove={removeProject} 
-        />)}
+        />))}
         {!removeLoading && <Loading />}
         {removeLoading && projects.length === 0 && (
           <p>Não há projetos cadastrados!</p>
