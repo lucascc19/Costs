@@ -93,8 +93,10 @@ function Project(){
     })
       .then((resp) => resp.json())
       .then((data) => {
-        //exibir os serviços
-
+        // setServices(data.services)
+        // setShowServiceForm(!showServiceForm)
+        setMessage('Serviço adicionado!')
+        setType('success')
       })
         .catch((err) => console.log(err))
   }
